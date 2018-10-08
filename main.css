@@ -84,7 +84,10 @@
   }
   .icon {
     background-color: white;
-    width: 15px;
+    width: 22px;
+    margin-top: 16px;
+    margin-bottom: 4px;
+    vertical-align: bottom;
   }
   #projects {
     padding: 20px 0px;
