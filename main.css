@@ -1,0 +1,152 @@
+#nav-bar {
+    background-color: black;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+  }
+  #nav-bar ul {
+    list-style: none;
+  }
+  #nav-bar li {
+    display: inline-block;
+    padding: 10px 40px 0px 40px;
+  }
+  li a {
+    color: white;
+  }
+  .center {
+    text-align: center;
+  }
+  .nav-name {
+    font-size: 25px;
+  }
+  #welcome {
+    background-image: url("https://wallpaper-gallery.net/images/hipster-desktop-wallpaper-hd/hipster-desktop-wallpaper-hd-19.jpg");
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+    height: 100vh;
+    padding-top: 35vh;
+    text-align: center;
+    color: white;
+  }
+  .name {
+    font-size: 72px;
+  }
+  #profile {
+    display: inline-block;
+    margin-left: 20%;
+    vertical-align:top;
+  }
+  #profile img{
+    border-radius: 300px;
+    border: 5px solid black;
+    height: 300px;
+    margin-bottom: 20px;
+  }
+  .about-text{
+    display: inline-block;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 40px;
+    width: 30%;
+    vertical-align:top;
+  }
+  #skills {
+    background-color: black;
+    color: white;
+    padding: 20px 0px;
+  }
+  #skills i {
+    font-size: 25px;
+    padding-top: 20px;
+  }
+  #skills-table {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+    
+  #frontend, #teamplayer, #selfstarter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: calc(100%  / 5);
+    margin: 10px;
+    border: 1px solid white;
+    border-radius: 3px;
+  }
+  #skills ul {
+    list-style: none;
+    text-align: left;
+  }
+  .icon {
+    background-color: white;
+    width: 15px;
+  }
+  #projects {
+    padding: 20px 0px;
+  }
+  .project-container {
+    margin-left: 25%;
+  }
+  .row {
+    width: 80%;
+  }
+  .row ul {
+    list-style: none;
+  }
+  .row li {
+    display: inline-block;
+    padding: 0px 10px 0px 0px;
+  }
+  .row img {
+    width: 200px;
+  }
+  #contact {
+    background-color: black;
+    color: white;
+    text-align: center;
+  }
+  #contact a {
+    color: black;
+  }
+  .btn {
+    margin: 0px 10px 40px 10px;
+    background-color: white
+  }
+  
+  @media screen and (max-width: 780px) {
+    #profile img{
+    height: 200px;
+  }
+    .about-text{
+    display: block;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 5px;
+    vertical-align:top;
+    width: 90%;
+  }
+    .project-container {
+    margin-left: 10%;
+  }
+    .nav-name {
+    font-size: 16px;
+  }
+    #nav-bar li {
+    padding: 10px 0px 0px 0px;
+    font-size: 12px;
+  }
+    #skills-table {
+    display: block;
+    justify-content: center;
+  }
+    #frontend, #teamplayer, #selfstarter {
+    display: block;
+    width: 90%;
+    margin: 0 auto;
+  }
+  }
