@@ -12,12 +12,36 @@
   <!--Bootstrap-->
   <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
   <!--CSS-->
   <link rel="stylesheet" href="main.css" type="text/css">
 </head>
 
 <body>
-  <!--Navbar-->
+  <!--Dropdown Navbar-->
+  <div class="dropdown">
+    <button class="btn dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true"
+      aria-expanded="false">
+      <i class="fas fa-bars"></i>
+    </button>
+    <a href="#welcome" class="nav-name">Natalie Brickley</a>
+    <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+      <a href="#welcome"><button class="dropdown-item" type="button">Home</button></a>
+      <a href="#about"><button class="dropdown-item" type="button">About</button></a>
+      <a href="#skills"><button class="dropdown-item" type="button">Skills</button></a>
+      <a href="#projects"><button class="dropdown-item" type="button">Projects</button></a>
+      <a href="#contact"><button class="dropdown-item" type="button">Contact</button></a>
+    </div>
+  </div>
+  <!--Full Navbar-->
   <nav id="nav-bar">
     <div class="center">
       <ul>
