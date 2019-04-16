@@ -52,7 +52,10 @@ li a {
   color: white;
 }
 .name {
-  font-size: 72px;
+  text-shadow: 2px 2px #000;
+}
+#about {
+  padding: 70px;
 }
 #profile {
   display: inline-block;
@@ -76,7 +79,7 @@ li a {
 #skills {
   background-color: black;
   color: white;
-  padding: 20px 0px;
+  padding: 70px 0px;
 }
 #skills i {
   font-size: 25px;
@@ -110,7 +113,7 @@ li a {
   vertical-align: bottom;
 }
 #projects {
-  padding: 20px 0px;
+  padding: 70px 0px;
 }
 .container-fluid {
   width: 100%;
@@ -145,18 +148,19 @@ li a {
   background: rgba(0,0,0,.8); 
   transform: scaleY(0);
   transition: transform .5s;
-  height: 175px;
+  /* height: 175px; */
+  height: 37vh;
 }
 .container-fluid .box:hover .details {
   transform: scaleY(1);
   
 }
 .container-fluid .box .details .content{
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
+  /* position: absolute; */
+  /* top: 50%;
+  transform: translateY(-50%); */
   text-align: center;
-  padding: 15px;
+  padding-top: 15px;
   color: #fff;
 }
 .container-fluid .box .details h2 {
@@ -164,7 +168,17 @@ li a {
   padding: 0;
 }
 .imgBox {
-  height: 200px;
+  /* height: 200px; */
+  height: 40vh;
+}
+.deployed {
+  margin: 10px;
+  background: forestgreen;
+  color: white;
+}
+.repo{
+  background: navy;
+  color: white;
 }
 @media screen and (max-width: 780px) {
 .dropdown {
@@ -196,7 +210,7 @@ li a {
 #contact a {
   color: black;
 }
-.btn {
+.footer {
   margin: 0px 10px 40px 10px;
   background-color: white
 }
