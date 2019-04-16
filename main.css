@@ -42,20 +42,26 @@ li a {
   font-size: 25px;
 }
 #welcome {
-  background-image: url("https://wallpaper-gallery.net/images/hipster-desktop-wallpaper-hd/hipster-desktop-wallpaper-hd-19.jpg");
+  /* background-image: url("https://wallpaper-gallery.net/images/hipster-desktop-wallpaper-hd/hipster-desktop-wallpaper-hd-19.jpg"); */
+  background: url("https://i.pinimg.com/originals/ae/1d/4f/ae1d4fa25da4a22a151a03e3c8a7802d.gif");
   background-size: cover;
   background-position: center top;
   background-repeat: no-repeat;
+  
   height: 100vh;
   padding-top: 35vh;
   text-align: center;
-  color: white;
+  color: #fff;
 }
 .name {
   text-shadow: 2px 2px #000;
 }
 #about {
   padding: 70px;
+  background: url("http://wantmyhusbandback.com/wp-content/uploads/2018/08/red-roses-garden-3-612x408.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
 }
 #profile {
   display: inline-block;
@@ -114,6 +120,8 @@ li a {
 }
 #projects {
   padding: 70px 0px;
+  color: white;
+  background: url("http://wantmyhusbandback.com/wp-content/uploads/2018/08/red-roses-garden-3-612x408.jpg")
 }
 .container-fluid {
   width: 100%;
@@ -133,6 +141,7 @@ li a {
 .container-fluid .box .imgBox {
   position: relative;
   overflow: hidden;
+  border: 4px solid black;
 }
 .container-fluid .box .imgBox img {
   width: 100%;
