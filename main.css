@@ -132,10 +132,10 @@ li a {
 }
 .container-fluid .box {
   position: relative;
-  width: 20%;
-  margin: 10px;
   box-sizing: border-box;
   display: inline-block;
+  padding-left: 0;
+  padding-right: 0;
 }
 .container-fluid .box .imgBox {
   position: relative;
