@@ -43,7 +43,7 @@ li a {
 }
 #welcome {
   /* background-image: url("https://wallpaper-gallery.net/images/hipster-desktop-wallpaper-hd/hipster-desktop-wallpaper-hd-19.jpg"); */
-  background: url("https://i.pinimg.com/originals/ae/1d/4f/ae1d4fa25da4a22a151a03e3c8a7802d.gif");
+  background: url("./images/welcome\ image.gif");
   background-size: cover;
   background-position: center top;
   background-repeat: no-repeat;
@@ -58,9 +58,8 @@ li a {
 }
 #about {
   padding: 70px;
-  background: url("http://wantmyhusbandback.com/wp-content/uploads/2018/08/red-roses-garden-3-612x408.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
+  background: url("./images/roses.jpg");
+  background-size: contain;
   color: white;
 }
 #profile {
@@ -121,7 +120,7 @@ li a {
 #projects {
   padding: 70px 0px;
   color: white;
-  background: url("http://wantmyhusbandback.com/wp-content/uploads/2018/08/red-roses-garden-3-612x408.jpg")
+  background: url("./images/roses.jpg")
 }
 .container-fluid {
   width: 100%;
