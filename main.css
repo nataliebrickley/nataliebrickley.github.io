@@ -85,6 +85,11 @@ li a {
   background-color: black;
   color: white;
   padding: 70px 0px;
+  text-align: center;
+}
+.resume {
+  font-size: 24px;
+  font-weight: 100;
 }
 #skills i {
   font-size: 25px;
