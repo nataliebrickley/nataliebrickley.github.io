@@ -176,6 +176,9 @@ li a {
   padding-top: 15px;
   color: #fff;
 }
+.content p {
+  margin: 0px;
+}
 .container-fluid .box .details h2 {
   margin: 0;
   padding: 0;
