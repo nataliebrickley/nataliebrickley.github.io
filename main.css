@@ -111,6 +111,10 @@ li a {
   border: 1px solid white;
   border-radius: 3px;
 }
+.occuspace-link {
+  color: white;
+  text-decoration: underline;
+}
 #skills ul {
   list-style: none;
   text-align: left;
